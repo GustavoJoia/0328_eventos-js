@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="src/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <title>Evento 03 - OnClick</title>
+</head>
+<body class="body_events">
+    <div class="base_events">
+        <h1>onChange</h1>
+        <p>O evento de <span class="event_nome">onChange</span> é similar ao <span class="event_nome">
+            onInput</span>, porém este evento só é engatilhado quando o elemento associado perde o foco, <br> enquanto o outro é ativado imediatamente a cada mudança</p>
+        <p>Clique na seleção abaixo e teste as diferentes formas:</p>
+        <select name="change" id="cngExemplo">
+            <option value="0">Selecione...</option>
+            <option value="1">Maçãs</option>
+            <option value="2">Uvas</option>
+            <option value="3">Laranja</option>
+        </select>
+        <div class="msg" id="resposta"></div>
+    </div>
+
+    <script src="./src/scripts/onChange.js"></script>
+</body>
+</html>
